@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: monospace;
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.overall {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 1000px;
+  height: 690px;
+  background-color: white;
+  position: relative;
+}
+
+.section-1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-1 {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: black;
+  width: 700px;
+  height: 50px;
+}
+
+.section-2 {
+  font-size: 2rem;
+  background-color: rgb(249, 200, 5);
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.section-3 {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-3 {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: black;
+  width: 400px;
+  height: 480px;
+}
+
+.child-3 {
+  border: 1px solid brown;
+  border-radius: 5px;
+  background-color: red;
+  width: 400px;
+  height: 160px;
+}
+
+.grandchild-31 {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: green;
+  width: 133px;
+  height: 160px;
+}
+
+.section-4 {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-4 {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: black;
+  width: 500px;
+  height: 50px;
+}
