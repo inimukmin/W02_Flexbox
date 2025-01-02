@@ -130,8 +130,24 @@ body {
 
 .main-4 {
   border: 1px solid blue;
-  border-radius: 5px;
+  border-radius: 0px;
   background-color: black;
   width: 500px;
   height: 50px;
+}
+
+.child-41 {
+  border: 1px solid brown;
+  border-radius: 0px;
+  background-color: red;
+  width: 499px;
+  height: 38px;
+}
+
+.child-42 {
+  border: 1px solid brown;
+  border-radius: 0px;
+  background-color: red;
+  width: 499px;
+  height: 10px;
 }
