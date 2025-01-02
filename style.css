@@ -74,9 +74,11 @@ body {
   background-color: red;
   width: 400px;
   height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
-.grandchild-31 {
+.grandchild-3 {
   border: 1px solid white;
   border-radius: 5px;
   background-color: green;
