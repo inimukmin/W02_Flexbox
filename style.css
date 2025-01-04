@@ -49,32 +49,140 @@ body {
 }
 
 .child-11 {
-  border: 1px solid red;
-  border-radius: 5px;
   background-color: #2a2c2e;
   opacity: 96%;
   width: 166px;
   height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#grandchild-111 {
+  width: 33.98px;
+  height: 34.8px;
+  background-image: url("Big Bookshelf logo.png");
+}
+
+#grandchild-112 {
+  color: #ffffff;
+  width: 120.96px;
+  height: 20px;
+  font-weight: bolder;
+  font-size: 128.2%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
 }
 
 .child-12 {
-  border: 1px solid red;
-  border-radius: 5px;
   background-color: #2a2c2e;
   opacity: 96%;
   width: 456px;
   height: 24px;
   gap: 32px;
+  color: #ffffff99;
+  font-family: Clash Grotesk Variable;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a:link {
+  color: #ffffff99;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff99;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .child-13 {
-  border: 1px solid red;
-  border-radius: 5px;
   background-color: #2a2c2e;
   opacity: 96%;
   width: 253px;
   height: 56px;
   gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#grandchild-131 {
+  width: 112px;
+  height: 24px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search-logo {
+  width: 24px;
+  height: 24px;
+  opacity: 0px;
+  background-image: url("Search logo.png");
+}
+
+#bookmark-logo {
+  width: 24px;
+  height: 24px;
+  opacity: 0px;
+  background-image: url("Bookmark logo.png");
+}
+
+#cart-logo {
+  width: 24px;
+  height: 24px;
+  opacity: 0px;
+  background-image: url("Cart logo.png");
+}
+
+button {
+  color: #000000de;
+  background-color: #f4ce47;
+  border-radius: 16px;
+  width: 101px;
+  height: 56px;
+  padding: 16px 25px;
+  gap: 12px;
+  opacity: 0px;
+  font-family: Clash Grotesk Variable;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+  transition: all 100ms;
+}
+
+button:hover {
+  color: #f4ce47;
+  background-color: #000000de;
 }
 
 .section-2 {
@@ -82,6 +190,81 @@ body {
   height: 80px;
   padding: 12px;
   gap: 24px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-21 {
+  color: #f4ba30;
+  font-family: Clash Grotesk Variable;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration-skip-ink: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  left: -10px;
+}
+
+#main-22 {
+  color: #f4ba30;
+  font-family: Clash Grotesk Variable;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration-skip-ink: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 250px;
+}
+
+#main-23 {
+  color: #2a2c2e;
+  font-family: Clash Grotesk Variable;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration-skip-ink: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 530px;
+}
+
+#main-24 {
+  color: #f4ba30;
+  font-family: Clash Grotesk Variable;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration-skip-ink: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  right: 250px;
+}
+
+#main-25 {
+  color: #f4ba30;
+  font-family: Clash Grotesk Variable;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration-skip-ink: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  right: -10px;
 }
 
 .section-3 {
