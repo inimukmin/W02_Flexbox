@@ -55,9 +55,6 @@ body {
   opacity: 96%;
   width: 166px;
   height: 40px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 35px;
 }
 
 .child-12 {
@@ -97,16 +94,16 @@ body {
 }
 
 .main-3 {
-  border: 1px solid red;
-  border-radius: 0px;
   background-color: #2a2c2e;
   width: 898px;
   height: 2332px;
   gap: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .child-3 {
-  border: 1px solid blue;
   width: 898px;
   height: 577px;
   gap: 8px;
@@ -120,11 +117,11 @@ body {
   background-color: ffffff;
   width: 294px;
   height: 577px;
+  gap: 8px;
   padding: 24px;
 }
 
 .section-4 {
-  border: 1px solid red;
   background-color: #2a2c2e;
   width: 1248px;
   height: 128px;
@@ -133,14 +130,12 @@ body {
 }
 
 .main-41 {
-  border: 1px solid brown;
   height: 88px;
   padding-right: 24px;
   padding-left: 24px;
 }
 
 .main-42 {
-  border: 1px solid brown;
   background-color: #000000de;
   height: 40px;
   padding: 12px 24px;
