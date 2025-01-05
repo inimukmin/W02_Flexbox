@@ -61,7 +61,7 @@ body {
 #grandchild-111 {
   width: 33.98px;
   height: 34.8px;
-  background-image: url("bigbookshelf-logo.png");
+  background-image: url("assets/bigbookshelf-logo.png");
 }
 
 #grandchild-112 {
@@ -141,21 +141,21 @@ a:active {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("search-logo.png");
+  background-image: url("assets/search-logo.png");
 }
 
 #bookmark-logo {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("bookmark-logo.png");
+  background-image: url("assets/bookmark-logo.png");
 }
 
 #cart-logo {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("cart-logo.png");
+  background-image: url("assets/cart-logo.png");
 }
 
 button {
@@ -315,7 +315,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book1.png");
+  background-image: url("assets/book1.png");
   position: relative;
 }
 
@@ -327,7 +327,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book2.png");
+  background-image: url("assets/book2.png");
   position: relative;
 }
 
@@ -339,7 +339,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book3.png");
+  background-image: url("assets/book3.png");
   position: relative;
 }
 
@@ -351,7 +351,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book4.png");
+  background-image: url("assets/book4.png");
   position: relative;
 }
 
@@ -363,7 +363,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book5.png");
+  background-image: url("assets/book5.png");
   position: relative;
 }
 
@@ -375,7 +375,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book6.png");
+  background-image: url("assets/book6.png");
   position: relative;
 }
 
@@ -387,7 +387,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book7.png");
+  background-image: url("assets/book7.png");
   position: relative;
 }
 
@@ -399,7 +399,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book8.png");
+  background-image: url("assets/book8.png");
   position: relative;
 }
 
@@ -411,7 +411,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book9.png");
+  background-image: url("assets/book9.png");
   position: relative;
 }
 
@@ -423,7 +423,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book10.png");
+  background-image: url("assets/book10.png");
   position: relative;
 }
 
@@ -435,7 +435,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book11.png");
+  background-image: url("assets/book11.png");
   position: relative;
 }
 
@@ -447,7 +447,7 @@ button:hover {
   gap: 9.99px;
   border-radius: 11.99px;
   opacity: 0px;
-  background-image: url("book12.png");
+  background-image: url("assets/book12.png");
   position: relative;
 }
 
@@ -472,7 +472,7 @@ button:hover {
   height: 15px;
   gap: 0px;
   opacity: 0px;
-  background-image: url("favorite-bookmark-logo.png");
+  background-image: url("assets/favorite-bookmark-logo.png");
 }
 
 .book-info {
@@ -604,7 +604,7 @@ button:hover {
   height: 14px;
   gap: 0px;
   opacity: 0px;
-  background-image: url("comment-logo.png");
+  background-image: url("assets/comment-logo.png");
 }
 
 .rating {
@@ -642,7 +642,7 @@ button:hover {
   height: 14px;
   gap: 0px;
   opacity: 0px;
-  background-image: url("star-logo.png");
+  background-image: url("assets/star-logo.png");
 }
 
 .rating-count {
@@ -734,7 +734,7 @@ button:hover {
 #grandchild-411 {
   width: 33.98px;
   height: 35px;
-  background-image: url("bigbookshelf-logo.png");
+  background-image: url("assets/bigbookshelf-logo.png");
 }
 
 #grandchild-412 {
@@ -765,7 +765,7 @@ button:hover {
   height: 18px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("instagram-logo.png");
+  background-image: url("assets/instagram-logo.png");
 }
 
 #facebook-logo {
@@ -773,7 +773,7 @@ button:hover {
   height: 18px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("facebook-logo.png");
+  background-image: url("assets/facebook-logo.png");
 }
 
 #twitter-logo {
@@ -781,7 +781,7 @@ button:hover {
   height: 14px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("twitter-logo.png");
+  background-image: url("assets/twitter-logo.png");
 }
 
 .main-42 {
