@@ -61,7 +61,7 @@ body {
 #grandchild-111 {
   width: 33.98px;
   height: 34.8px;
-  background-image: url("Big Bookshelf logo.png");
+  background-image: url("bigbookshelf-logo.png");
 }
 
 #grandchild-112 {
@@ -141,21 +141,21 @@ a:active {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("Search logo.png");
+  background-image: url("search-logo.png");
 }
 
 #bookmark-logo {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("Bookmark logo.png");
+  background-image: url("bookmark-logo.png");
 }
 
 #cart-logo {
   width: 24px;
   height: 24px;
   opacity: 0px;
-  background-image: url("Cart logo.png");
+  background-image: url("cart-logo.png");
 }
 
 button {
@@ -293,13 +293,312 @@ button:hover {
 }
 
 .grandchild-3 {
-  border: 1px solid white;
+  background-color: #ffffff;
   border-radius: 20px;
   background-color: ffffff;
   width: 294px;
   height: 577px;
   gap: 8px;
   padding: 24px;
+  position: relative;
+}
+
+.grandchild-3:hover {
+  background-color: #dfbe4a;
+}
+
+#book-photo1 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book1.png");
+  position: relative;
+}
+
+#book-photo2 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book2.png");
+  position: relative;
+}
+
+#book-photo3 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book3.png");
+  position: relative;
+}
+
+#book-photo4 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book4.png");
+  position: relative;
+}
+
+#book-photo5 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book5.png");
+  position: relative;
+}
+
+#book-photo6 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book6.png");
+  position: relative;
+}
+
+#book-photo7 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book7.png");
+  position: relative;
+}
+
+#book-photo8 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book8.png");
+  position: relative;
+}
+
+#book-photo9 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book9.png");
+  position: relative;
+}
+
+#book-photo10 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book10.png");
+  position: relative;
+}
+
+#book-photo11 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book11.png");
+  position: relative;
+}
+
+#book-photo12 {
+  background-color: #ffffff61;
+  width: 246px;
+  height: 357px;
+  padding: 9.99px;
+  gap: 9.99px;
+  border-radius: 11.99px;
+  opacity: 0px;
+  background-image: url("book12.png");
+  position: relative;
+}
+
+.favorite-bookmark {
+  background-color: #2a2c2e;
+  width: 37px;
+  height: 37.4px;
+  padding: 7.48px;
+  gap: 7.48px;
+  border-radius: 33.66px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12px;
+}
+
+.favorite-bookmark-logo {
+  width: 13px;
+  height: 15px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("favorite-bookmark-logo.png");
+}
+
+.book-info {
+  width: 246px;
+  height: 164px;
+  margin: 7px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  left: 18px;
+}
+
+.card-top {
+  width: 246px;
+  height: 68px;
+  gap: 4px;
+}
+
+#author-book1,
+#author-book2,
+#author-book3,
+#author-book4,
+#author-book5,
+#author-book6,
+#author-book7,
+#author-book8,
+#author-book9,
+#author-book10,
+#author-book11,
+#author-book12 {
+  color: #00000099;
+  width: 246px;
+  height: 16px;
+  gap: 4px;
+  font-family: Clash Grotesk Variable;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+#name-book1,
+#name-book2,
+#name-book3,
+#name-book4,
+#name-book5,
+#name-book6,
+#name-book7,
+#name-book8,
+#name-book9,
+#name-book10,
+#name-book11,
+#name-book12 {
+  color: #000000de;
+  width: 245px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Clash Grotesk Variable;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+#name-book1:hover,
+#name-book2:hover,
+#name-book3:hover,
+#name-book4:hover,
+#name-book5:hover,
+#name-book6:hover,
+#name-book7:hover,
+#name-book8:hover,
+#name-book9:hover,
+#name-book10:hover,
+#name-book11:hover,
+#name-book12:hover {
+  color: blue;
+}
+
+.card-mid {
+  border: 1px solid blue;
+  width: 154px;
+  height: 32px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment {
+  border: 1px solid #000000de;
+  width: 55px;
+  height: 32px;
+  padding: 8px 12px;
+  gap: 4px;
+  border-radius: 31px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.rating {
+  border: 1px solid #000000de;
+  width: 91px;
+  height: 32px;
+  padding: 8px 12px;
+  gap: 4px;
+  border-radius: 47px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.card-bottom {
+  border: 1px solid blue;
+  width: 138px;
+  height: 32px;
+  gap: 8px;
 }
 
 .section-4 {
@@ -333,7 +632,7 @@ button:hover {
 #grandchild-411 {
   width: 33.98px;
   height: 35px;
-  background-image: url("Big Bookshelf logo.png");
+  background-image: url("bigbookshelf-logo.png");
 }
 
 #grandchild-412 {
@@ -364,7 +663,7 @@ button:hover {
   height: 18px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("Instagram logo.png");
+  background-image: url("instagram-logo.png");
 }
 
 #facebook-logo {
@@ -372,7 +671,7 @@ button:hover {
   height: 18px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("Facebook logo.png");
+  background-image: url("facebook-logo.png");
 }
 
 #twitter-logo {
@@ -380,7 +679,7 @@ button:hover {
   height: 14px;
   opacity: 0px;
   color: #ffffff;
-  background-image: url("Twitter logo.png");
+  background-image: url("twitter-logo.png");
 }
 
 .main-42 {
