@@ -43,9 +43,8 @@ body {
   padding: 20px 24px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .child-11 {
@@ -55,7 +54,6 @@ body {
   height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
@@ -316,10 +314,161 @@ button:hover {
   height: 88px;
   padding-right: 24px;
   padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child-41 {
+  width: 204px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#grandchild-411 {
+  width: 33.98px;
+  height: 35px;
+  background-image: url("Big Bookshelf logo.png");
+}
+
+#grandchild-412 {
+  color: #ffffff;
+  width: 148.64px;
+  height: 14.31px;
+  font-weight: bolder;
+  font-size: 128.2%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 14.31px;
+  position: relative;
+  right: 20px;
+}
+
+.child-42 {
+  width: 104px;
+  height: 24px;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#instagram-logo {
+  width: 17.98px;
+  height: 18px;
+  opacity: 0px;
+  color: #ffffff;
+  background-image: url("Instagram logo.png");
+}
+
+#facebook-logo {
+  width: 8.31px;
+  height: 18px;
+  opacity: 0px;
+  color: #ffffff;
+  background-image: url("Facebook logo.png");
+}
+
+#twitter-logo {
+  width: 17.23px;
+  height: 14px;
+  opacity: 0px;
+  color: #ffffff;
+  background-image: url("Twitter logo.png");
 }
 
 .main-42 {
   background-color: #000000de;
   height: 40px;
   padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child-421 {
+  width: 197px;
+  height: 16px;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#terms {
+  color: #ffffff;
+  width: 150px;
+  height: 16px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 16px;
+  text-decoration-skip-ink: none;
+}
+
+#policy {
+  color: #ffffff;
+  width: 100px;
+  height: 16px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 16px;
+  text-decoration-skip-ink: none;
+}
+
+.child-422 {
+  width: 234px;
+  height: 16px;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#phone-number {
+  color: #ffffff;
+  width: 100px;
+  height: 16px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 16px;
+  text-decoration-skip-ink: none;
+}
+
+#email {
+  color: #ffffff;
+  width: 134px;
+  height: 16px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 16px;
+  text-decoration-skip-ink: none;
 }
