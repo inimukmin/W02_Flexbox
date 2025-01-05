@@ -562,7 +562,6 @@ button:hover {
 }
 
 .card-mid {
-  border: 1px solid blue;
   width: 154px;
   height: 32px;
   gap: 8px;
@@ -579,8 +578,33 @@ button:hover {
   padding: 8px 12px;
   gap: 4px;
   border-radius: 31px;
-  border: 1px;
   opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-count {
+  color: #000000de;
+  width: 11px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-decoration-skip-ink: none;
+}
+
+.comment-logo {
+  width: 15px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("comment-logo.png");
 }
 
 .rating {
@@ -590,8 +614,50 @@ button:hover {
   padding: 8px 12px;
   gap: 4px;
   border-radius: 47px;
-  border: 1px;
   opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-avg {
+  color: #000000de;
+  width: 17px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.rating-logo {
+  color: #000000de;
+  width: 14px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("star-logo.png");
+}
+
+.rating-count {
+  color: #000000de;
+  width: 26px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Clash Grotesk Variable;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+  text-decoration-skip-ink: none;
 }
 
 .card-bottom {
